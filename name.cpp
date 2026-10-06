@@ -3,7 +3,7 @@
 using namespace std;
 const int HELLO = 100;
 
-int main (){
+int main () {
     int myInt;
     double myDouble, myOtherDouble;
     char myChar;
