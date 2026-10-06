@@ -12,6 +12,8 @@ int main (){
     //int
     cout << "My Int is: " << myInt << endl;
     myInt = 1;
+    cout << "Enter a new number: " << endl;
+    cin >> myInt;
     cout << "My Int is now: " << myInt << endl;
 
     cout << "\n";
@@ -21,6 +23,8 @@ int main (){
     cout << name << endl;
     name.append(" Mitchell");
     cout << name << endl;
+    cout << "Enter your name: " << endl;
+    cin >> name;
 
     cout << "\n";
 
