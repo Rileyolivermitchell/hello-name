@@ -25,6 +25,8 @@ int main (){
     cout << name << endl;
     cout << "Enter your name: " << endl;
     cin >> name;
+    cout << "My name is now: " << name << endl;
+    cout << "Your surname is now:" << name.append(" Mitchell");
 
     cout << "\n";
 
