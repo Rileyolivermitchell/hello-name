@@ -1,6 +1,7 @@
 # include <iostream>
 # include <string>
 using namespace std;
+const int HELLO = 100;
 
 int main (){
     int myInt;
