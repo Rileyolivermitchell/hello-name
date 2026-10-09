@@ -1,5 +1,6 @@
 # include <iostream>
 # include <string>
+# include <sstream>  // to be able to have multiple strings/variables in an output
 using namespace std;
 const int HELLO = 100;
 
@@ -27,6 +28,7 @@ int main () {
     cout << "Enter your name: " << endl;
     cin >> name;
     cout << "My name is now: " << name << endl;
+    cout << "My name is now: " << name << "hello!" << endl;
     cout << "Your surname is now:" << name.append(" Mitchell");
 
     cout << "\n";
