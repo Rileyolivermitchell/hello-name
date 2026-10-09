@@ -24,8 +24,5 @@ int main () {
     cout << "Year Published: " << year << endl;
     cout << "======================" << endl;
 
-
-
-
     return 0;
 }
