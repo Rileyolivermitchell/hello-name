@@ -3,10 +3,11 @@
 # include <sstream>
 using namespace std;
 
+
 int main () {
     string book, author;
     int year;
-
+    
     // input
     cout << "What Is Your Favourite Book?:" << endl;
     cin >> book;
@@ -26,3 +27,4 @@ int main () {
 
     return 0;
 }
+
